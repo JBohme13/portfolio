@@ -3,70 +3,164 @@
 }
 
 body {
-    background-color: #666666;
+    background-color: #c0b097;
+    font-family: 'Roboto Slab', serif;
 }
 
 nav {
   position: relative;
   height: 60px;
-  width: 100%;
-  color: #999999;
-  background-color: #111111;
-  text-align: right;
-  border-radius: 5px;
+  width: 75px;
+  color: #333333;
 }
 
 ul {
     list-style: none;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    right: 15px;
 }
 
-li {
-  float: left;
-  margin-left: 50px;
-  margin-right: 50px;
+.dropDownItem {
   display: none;
+  height: 25px;
+  width: 75px;
+  background-color: #333333;
+  border: .1px solid #c0b097;
+  border-radius: 2px;
+  text-align: left;
+  color: #725043;
+  z-index: 1;
+}
+
+.dropDownStyle {
+  display: flex;
+  height: 25px;
+  width: 75px;
+  background-color: #333333;
+  border: .1px solid #c0b097;
+  border-radius: 2px;
+  color: #725043;    
+}
+
+a:hover {
+  color: #dddddd;
+}
+
+.aNav {
+    color: #c0b097;
+    text-decoration: none;
+    font-family: 'Megrim', cursive;
 }
 
 .hero {
-    background-color: #333333;
-    color: #999999;
+    color: #4d362d;
     margin-right: 10%;
     margin-left: 10%;
-    height: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50%;
     text-align: center;
     border-radius: 5px;
-    margin-top: 60px;
+    font-family: 'Megrim', cursive;
+    font-size: 32px;
+    align-content: center;
+    font-weight: bolder;
+    margin-top: 35px;
+    margin-bottom: 10px;
 }
 
+
 h2 {
-    background-color: #111111;
-    color: #999999;
-    width: 100%;
+    color: #725043;
+    width: 80%;
     height: 60px;
-    text-align: center;
-    border-radius: 5px;
+    font-size: 48px;
+    margin-left: 10%;
+    margin-top: 200px;
+    font-family: 'Megrim', cursive;
+    border-bottom: solid 2px #333333;
 }
 
 .bioBody {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.projectBody {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: lighter;
+    color: #333333;
 }
 
 .dropDownButton {
-    height: 40px;
-    width: 40px;
-    position: relative;
-    margin-right: 25px;
-    top: 10px;
+  background-color: #333333;
+  border: .1px solid #c0b097;
+  border-radius: 2px;
+  color: #c0b097;
+  font-family: 'Megrim', cursive;
+  font-size: 16px;
+  width: 75px;
+  height: 25px;
 }
 
+.dropDownButton:hover {
+  color: #dddddd;
+}
+
+
+.projectBody {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #333333;
+}
+
+.aContact {
+  color: #333333;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contactBody {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: lighter;
+  color: #333333;
+}
+
+.imgProject {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aProject {
+  color: #333333;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.imgHero {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 600px) {
+  .hero {
+    font-size: 48px;
+    height: 80%;
+  }
+}

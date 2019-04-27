@@ -3,31 +3,67 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>Jordan Bohme | Full Stack Web developer</title>
+        <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
         <link href="main.css" rel="stylesheet" type="text/css"/>
     </Head>
     <body>
-        <nav>
+        <nav id='nav'>
+            
             <ul class='navBar'>
-                <li><a href='#bioHead'>Bio</a></li>
-                <li><a href='#projectHead'>Projects</a></li>
-                <li><a href='http://Github.com/JBohme13/'>Github</a></li>
-                <li><a href=''>Linkedin</a></li>
+                <li><a href='#nav'><button class='dropDownButton'>Menu</button></a></li>
+                <li class='dropDownItem'><a href='#bio' class='aNav'>Bio</a></li>
+                <li class='dropDownItem'><a href='#project' class='aNav'>Projects</a></li>
+                <li class='dropDownItem'><a href='#contact' class='aNav'>Contact</a></li>
             </ul>
-            <button class='dropDownButton'>Menu</button>
+            
         </nav>
 
-        <header class='hero'>Hero</header>
+        <header class='hero'>
+            <img class='imgHero' src='http://www.twitrcovers.com/wp-content/uploads/2014/06/landscapes-mountains-sunset-l.jpg'>
+            <p class='heroBody'>Hi I'm Jordan, A fullstack developer with a 
+            pension for problem-solving!</p>
+        </header>
 
         <main>
             <section>
-                <h2 id='bioHead'>Bio</h2>
-                <p class='bioBody'>Bio content</p>
+                <h2 id='bio'>Bio</h2>
+                <p class='bioBody'>I am a current student enrolled in the 
+                    full stack flex program at Thinkful.  I enjoy building 
+                    responsive web apps that offer elegant solutions to 
+                    real-world problems, learning new and exciting tools to 
+                    make my projects come to life, and finding creative ways 
+                    to challange myself constantly.  
+                        when I am not coding you will very often find me in 
+                        the mountains seeking adventure to the fullest and 
+                        sparing little time from exploring something new, 
+                        whether that be a new library or API, a new mountain 
+                        range, or something totally different like learning a 
+                        new instrument.
+                        </p>
             </section>
             <section>
-                <h2 id='projectHead'>Projects</h2>
-                <div class='projectBody'>project</div>
+                <h2 id='project'>Projects</h2>
+                <div class='projectBody'>Avalanche rescue quiz -<br><br>
+                    a short quiz to test your knowledge of avalanche rescue and for me to practice making responsive web apps!<br><br>
+                        
+                        technology used: HTML5, CSS, JavaScript, JQuery.<br><br>
+                    <img class='imgProject' src='Image 4-27-19 at 11.38 AM.jpg'><br>
+                    <br><a href='https://github.com/JBohme13/quiz-app' class='aProject'>Repository</a><br><br>
+                    <a href='https://jbohme13.github.io/quiz-app/' class='aProject'>Live Application</a>
+                    </div>
+            </section>
+            <section>
+                <h2 id='contact'>Contact</h2>
+                <p class='contactBody'>Email: <a href='mailto:Email: Jordan.M.Bohme@gmail.com' class='aContact'>Jordan.M.Bohme@gmail.com</a><br><br>
+                GitHub: <a href='https://github.com/JBohme13/' class='aContact'>JBohme13</a><br><br>
+                Linkedin: none yet!<br><br></p>
             </section>
         </main>
+        <script
+          src="https://code.jquery.com/jquery-3.4.0.js"
+          integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+          crossorigin="anonymous"></script>
         <script src='index.js'></script>
     </body>
 </html>
