@@ -64,7 +64,8 @@ a:hover {
     height: 50%;
     text-align: center;
     border-radius: 5px;
-    font-family: 'Megrim', cursive;
+    /*font-family: 'Megrim', cursive;*/
+    font-family: 'Source Code Pro', monospace;
     font-size: 32px;
     align-content: center;
     font-weight: bolder;
@@ -79,7 +80,7 @@ h2 {
     height: 60px;
     font-size: 48px;
     margin-left: 10%;
-    margin-top: 200px;
+    margin-top: 100px;
     font-family: 'Megrim', cursive;
     border-bottom: solid 2px #333333;
 }
@@ -115,7 +116,7 @@ h2 {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
     font-size: 20px;
     line-height: 30px;
     font-weight: lighter;
@@ -136,7 +137,7 @@ h2 {
   line-height: 30px;
   font-weight: lighter;
   color: #333333;
-  margin-bottom: 600px;
+  margin-bottom: 100px;
 }
 
 .imgProject {
@@ -150,6 +151,13 @@ h2 {
 .aProject {
   color: #333333;
   font-size: 20px;
+}
+
+h3 {
+  font-style: underline;
+  font-weight: bolder;
+  border-bottom: solid 2px #333333;
+  font-size: 32px;
 }
 
 .imgHero {
